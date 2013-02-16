@@ -44,6 +44,21 @@
 		FBA0575716CEA23600BBD57E /* RepeatForeverTestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0575616CEA23600BBD57E /* RepeatForeverTestLayer.m */; };
 		FBA0575D16CEAD8000BBD57E /* CallFuncMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0575A16CEAD8000BBD57E /* CallFuncMenuLayer.m */; };
 		FBA0575E16CEAD8000BBD57E /* CallFuncTestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0575C16CEAD8000BBD57E /* CallFuncTestLayer.m */; };
+		FBA15E9216CF547F00D07CE5 /* AnimationTestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA15E9116CF547F00D07CE5 /* AnimationTestLayer.m */; };
+		FBA15EA116CF54C200D07CE5 /* grossini_dance_01.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9316CF54C200D07CE5 /* grossini_dance_01.png */; };
+		FBA15EA216CF54C200D07CE5 /* grossini_dance_02.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9416CF54C200D07CE5 /* grossini_dance_02.png */; };
+		FBA15EA316CF54C200D07CE5 /* grossini_dance_03.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9516CF54C200D07CE5 /* grossini_dance_03.png */; };
+		FBA15EA416CF54C200D07CE5 /* grossini_dance_04.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9616CF54C200D07CE5 /* grossini_dance_04.png */; };
+		FBA15EA516CF54C200D07CE5 /* grossini_dance_05.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9716CF54C200D07CE5 /* grossini_dance_05.png */; };
+		FBA15EA616CF54C200D07CE5 /* grossini_dance_06.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9816CF54C200D07CE5 /* grossini_dance_06.png */; };
+		FBA15EA716CF54C200D07CE5 /* grossini_dance_07.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9916CF54C200D07CE5 /* grossini_dance_07.png */; };
+		FBA15EA816CF54C200D07CE5 /* grossini_dance_08.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9A16CF54C200D07CE5 /* grossini_dance_08.png */; };
+		FBA15EA916CF54C200D07CE5 /* grossini_dance_09.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9B16CF54C200D07CE5 /* grossini_dance_09.png */; };
+		FBA15EAA16CF54C200D07CE5 /* grossini_dance_10.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9C16CF54C200D07CE5 /* grossini_dance_10.png */; };
+		FBA15EAB16CF54C200D07CE5 /* grossini_dance_11.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9D16CF54C200D07CE5 /* grossini_dance_11.png */; };
+		FBA15EAC16CF54C200D07CE5 /* grossini_dance_12.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9E16CF54C200D07CE5 /* grossini_dance_12.png */; };
+		FBA15EAD16CF54C200D07CE5 /* grossini_dance_13.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15E9F16CF54C200D07CE5 /* grossini_dance_13.png */; };
+		FBA15EAE16CF54C200D07CE5 /* grossini_dance_14.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA15EA016CF54C200D07CE5 /* grossini_dance_14.png */; };
 		FBD58AC116BE32EF00B007A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD58AC016BE32EF00B007A5 /* QuartzCore.framework */; };
 		FBD58AC316BE32EF00B007A5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD58AC216BE32EF00B007A5 /* OpenGLES.framework */; };
 		FBD58AC516BE32EF00B007A5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD58AC416BE32EF00B007A5 /* OpenAL.framework */; };
@@ -246,6 +261,22 @@
 		FBA0575A16CEAD8000BBD57E /* CallFuncMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallFuncMenuLayer.m; sourceTree = "<group>"; };
 		FBA0575B16CEAD8000BBD57E /* CallFuncTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallFuncTestLayer.h; sourceTree = "<group>"; };
 		FBA0575C16CEAD8000BBD57E /* CallFuncTestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallFuncTestLayer.m; sourceTree = "<group>"; };
+		FBA15E9016CF547F00D07CE5 /* AnimationTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTestLayer.h; sourceTree = "<group>"; };
+		FBA15E9116CF547F00D07CE5 /* AnimationTestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTestLayer.m; sourceTree = "<group>"; };
+		FBA15E9316CF54C200D07CE5 /* grossini_dance_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_01.png; path = Resources/grossini_dance_01.png; sourceTree = "<group>"; };
+		FBA15E9416CF54C200D07CE5 /* grossini_dance_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_02.png; path = Resources/grossini_dance_02.png; sourceTree = "<group>"; };
+		FBA15E9516CF54C200D07CE5 /* grossini_dance_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_03.png; path = Resources/grossini_dance_03.png; sourceTree = "<group>"; };
+		FBA15E9616CF54C200D07CE5 /* grossini_dance_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_04.png; path = Resources/grossini_dance_04.png; sourceTree = "<group>"; };
+		FBA15E9716CF54C200D07CE5 /* grossini_dance_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_05.png; path = Resources/grossini_dance_05.png; sourceTree = "<group>"; };
+		FBA15E9816CF54C200D07CE5 /* grossini_dance_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_06.png; path = Resources/grossini_dance_06.png; sourceTree = "<group>"; };
+		FBA15E9916CF54C200D07CE5 /* grossini_dance_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_07.png; path = Resources/grossini_dance_07.png; sourceTree = "<group>"; };
+		FBA15E9A16CF54C200D07CE5 /* grossini_dance_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_08.png; path = Resources/grossini_dance_08.png; sourceTree = "<group>"; };
+		FBA15E9B16CF54C200D07CE5 /* grossini_dance_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_09.png; path = Resources/grossini_dance_09.png; sourceTree = "<group>"; };
+		FBA15E9C16CF54C200D07CE5 /* grossini_dance_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_10.png; path = Resources/grossini_dance_10.png; sourceTree = "<group>"; };
+		FBA15E9D16CF54C200D07CE5 /* grossini_dance_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_11.png; path = Resources/grossini_dance_11.png; sourceTree = "<group>"; };
+		FBA15E9E16CF54C200D07CE5 /* grossini_dance_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_12.png; path = Resources/grossini_dance_12.png; sourceTree = "<group>"; };
+		FBA15E9F16CF54C200D07CE5 /* grossini_dance_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_13.png; path = Resources/grossini_dance_13.png; sourceTree = "<group>"; };
+		FBA15EA016CF54C200D07CE5 /* grossini_dance_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_14.png; path = Resources/grossini_dance_14.png; sourceTree = "<group>"; };
 		FBD58ABD16BE32EF00B007A5 /* Sample20130216.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample20130216.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD58AC016BE32EF00B007A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FBD58AC216BE32EF00B007A5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -674,6 +705,15 @@
 			path = CallFuncTestLayer;
 			sourceTree = "<group>";
 		};
+		FBA15E8F16CF547F00D07CE5 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FBA15E9016CF547F00D07CE5 /* AnimationTestLayer.h */,
+				FBA15E9116CF547F00D07CE5 /* AnimationTestLayer.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		FBD58AB416BE32EF00B007A5 = {
 			isa = PBXGroup;
 			children = (
@@ -710,6 +750,7 @@
 		FBD58AD216BE32EF00B007A5 /* Sample20130216 */ = {
 			isa = PBXGroup;
 			children = (
+				FBA15E8F16CF547F00D07CE5 /* Animation */,
 				FBA0575816CEAD7E00BBD57E /* CallFuncTestLayer */,
 				FBA0574816CE9A9800BBD57E /* CompositionAction */,
 				FB37F3C616C9D50C00851D83 /* ActionFade */,
@@ -744,11 +785,24 @@
 		FBD58AD316BE32EF00B007A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FB00E9C116C6B85D00F23037 /* powered.png */,
-				FBD58AD416BE32EF00B007A5 /* Default.png */,
-				FBD58AD616BE32EF00B007A5 /* Default@2x.png */,
 				FBD58AD816BE32EF00B007A5 /* Default-568h@2x.png */,
 				FBD58ADA16BE32EF00B007A5 /* Default-Landscape~ipad.png */,
+				FBD58AD416BE32EF00B007A5 /* Default.png */,
+				FBD58AD616BE32EF00B007A5 /* Default@2x.png */,
+				FBA15E9316CF54C200D07CE5 /* grossini_dance_01.png */,
+				FBA15E9416CF54C200D07CE5 /* grossini_dance_02.png */,
+				FBA15E9516CF54C200D07CE5 /* grossini_dance_03.png */,
+				FBA15E9616CF54C200D07CE5 /* grossini_dance_04.png */,
+				FBA15E9716CF54C200D07CE5 /* grossini_dance_05.png */,
+				FBA15E9816CF54C200D07CE5 /* grossini_dance_06.png */,
+				FBA15E9916CF54C200D07CE5 /* grossini_dance_07.png */,
+				FBA15E9A16CF54C200D07CE5 /* grossini_dance_08.png */,
+				FBA15E9B16CF54C200D07CE5 /* grossini_dance_09.png */,
+				FBA15E9C16CF54C200D07CE5 /* grossini_dance_10.png */,
+				FBA15E9D16CF54C200D07CE5 /* grossini_dance_11.png */,
+				FBA15E9E16CF54C200D07CE5 /* grossini_dance_12.png */,
+				FBA15E9F16CF54C200D07CE5 /* grossini_dance_13.png */,
+				FBA15EA016CF54C200D07CE5 /* grossini_dance_14.png */,
 				FBD58ADC16BE32EF00B007A5 /* Icon-72.png */,
 				FBD58ADE16BE32EF00B007A5 /* Icon-Small-50.png */,
 				FBD58AE016BE32EF00B007A5 /* Icon-Small.png */,
@@ -757,6 +811,7 @@
 				FBD58AE616BE32EF00B007A5 /* Icon@2x.png */,
 				FBD58AE816BE32EF00B007A5 /* Info.plist */,
 				FBD58AE916BE32EF00B007A5 /* iTunesArtwork */,
+				FB00E9C116C6B85D00F23037 /* powered.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1191,6 +1246,20 @@
 				FB6F7B8016CF2C2B00E74FDB /* ParticleSample.png in Resources */,
 				FB81E50E16CF4A7F006541C2 /* CallFuncParticle.plist in Resources */,
 				FB81E50F16CF4A7F006541C2 /* CallFuncParticle.png in Resources */,
+				FBA15EA116CF54C200D07CE5 /* grossini_dance_01.png in Resources */,
+				FBA15EA216CF54C200D07CE5 /* grossini_dance_02.png in Resources */,
+				FBA15EA316CF54C200D07CE5 /* grossini_dance_03.png in Resources */,
+				FBA15EA416CF54C200D07CE5 /* grossini_dance_04.png in Resources */,
+				FBA15EA516CF54C200D07CE5 /* grossini_dance_05.png in Resources */,
+				FBA15EA616CF54C200D07CE5 /* grossini_dance_06.png in Resources */,
+				FBA15EA716CF54C200D07CE5 /* grossini_dance_07.png in Resources */,
+				FBA15EA816CF54C200D07CE5 /* grossini_dance_08.png in Resources */,
+				FBA15EA916CF54C200D07CE5 /* grossini_dance_09.png in Resources */,
+				FBA15EAA16CF54C200D07CE5 /* grossini_dance_10.png in Resources */,
+				FBA15EAB16CF54C200D07CE5 /* grossini_dance_11.png in Resources */,
+				FBA15EAC16CF54C200D07CE5 /* grossini_dance_12.png in Resources */,
+				FBA15EAD16CF54C200D07CE5 /* grossini_dance_13.png in Resources */,
+				FBA15EAE16CF54C200D07CE5 /* grossini_dance_14.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1342,6 +1411,7 @@
 				FBA0575D16CEAD8000BBD57E /* CallFuncMenuLayer.m in Sources */,
 				FBA0575E16CEAD8000BBD57E /* CallFuncTestLayer.m in Sources */,
 				FB6F7B7E16CF2C2B00E74FDB /* ParticleSampleLayer.m in Sources */,
+				FBA15E9216CF547F00D07CE5 /* AnimationTestLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

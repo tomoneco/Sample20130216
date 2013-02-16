@@ -8,6 +8,7 @@
 
 #import "CallFuncMenuLayer.h"
 #import "CallFuncTestLayer.h"
+#import "AnimationTestLayer.h"
 
 @implementation CallFuncMenuLayer
 
@@ -42,7 +43,12 @@
             [[CCDirector sharedDirector] pushScene:[CallFuncTestLayer scene]];
         }];
 		
-		CCMenu *menu = [CCMenu menuWithItems:itemLabel1, nil];
+        CCLabelTTF *label2 = [CCLabelTTF labelWithString:@"Animation" fontName:@"Marker Felt" fontSize:30];
+        CCMenuItemLabel *itemLabel2 = [CCMenuItemLabel itemWithLabel:label2 block:^(id sender) {
+            [[CCDirector sharedDirector] pushScene:[AnimationTestLayer scene]];
+        }];
+
+		CCMenu *menu = [CCMenu menuWithItems:itemLabel1, itemLabel2, nil];
 		
 		[menu setPosition:ccp( size.width/2, size.height/2)];
         

@@ -87,16 +87,16 @@
             [[CCDirector sharedDirector] pushScene:[FadeMenuLayer scene]];
         }];
 
-        CCLabelTTF *label7 = [CCLabelTTF labelWithString:@"連続アニメーション"
+        CCLabelTTF *label7 = [CCLabelTTF labelWithString:@"連続アクション"
                                                 fontName:@"Marker Felt"
                                                 fontSize:30];
         CCMenuItemLabel *itemLabel7 = [CCMenuItemLabel itemWithLabel:label7 block:^(id sender) {
             [[CCDirector sharedDirector] pushScene:[CompositionMenuLayer scene]];
         }];
 
-        CCLabelTTF *label8 = [CCLabelTTF labelWithString:@"コールバック"
+        CCLabelTTF *label8 = [CCLabelTTF labelWithString:@"コールバック・アニメーション"
                                                 fontName:@"Marker Felt"
-                                                fontSize:30];
+                                                fontSize:20];
         CCMenuItemLabel *itemLabel8 = [CCMenuItemLabel itemWithLabel:label8 block:^(id sender) {
             [[CCDirector sharedDirector] pushScene:[CallFuncMenuLayer scene]];
         }];

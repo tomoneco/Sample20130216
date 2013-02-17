@@ -29,11 +29,11 @@
 		FB37F3D016C9D50C00851D83 /* FadeMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37F3CA16C9D50C00851D83 /* FadeMenuLayer.m */; };
 		FB37F3D116C9D50C00851D83 /* FadeOutTestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37F3CC16C9D50C00851D83 /* FadeOutTestLayer.m */; };
 		FB37F3D216C9D50C00851D83 /* FadeToTestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37F3CE16C9D50C00851D83 /* FadeToTestLayer.m */; };
+		FB3EFDF316D0F80800CB0658 /* ParticleSample.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB3EFDF116D0F80800CB0658 /* ParticleSample.plist */; };
+		FB3EFDF416D0F80800CB0658 /* ParticleSample.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3EFDF216D0F80800CB0658 /* ParticleSample.png */; };
 		FB6F7B7716CF29FF00E74FDB /* Back.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FB6F7B7516CF29FF00E74FDB /* Back.fnt */; };
 		FB6F7B7816CF29FF00E74FDB /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6F7B7616CF29FF00E74FDB /* Back.png */; };
 		FB6F7B7E16CF2C2B00E74FDB /* ParticleSampleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6F7B7B16CF2C2B00E74FDB /* ParticleSampleLayer.m */; };
-		FB6F7B7F16CF2C2B00E74FDB /* ParticleSample.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB6F7B7C16CF2C2B00E74FDB /* ParticleSample.plist */; };
-		FB6F7B8016CF2C2B00E74FDB /* ParticleSample.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6F7B7D16CF2C2B00E74FDB /* ParticleSample.png */; };
 		FB81E50E16CF4A7F006541C2 /* CallFuncParticle.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB81E50C16CF4A7F006541C2 /* CallFuncParticle.plist */; };
 		FB81E50F16CF4A7F006541C2 /* CallFuncParticle.png in Resources */ = {isa = PBXBuildFile; fileRef = FB81E50D16CF4A7F006541C2 /* CallFuncParticle.png */; };
 		FBA0574716CE917F00BBD57E /* BaseTestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA0574616CE917F00BBD57E /* BaseTestLayer.m */; };
@@ -237,12 +237,12 @@
 		FB37F3CC16C9D50C00851D83 /* FadeOutTestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeOutTestLayer.m; sourceTree = "<group>"; };
 		FB37F3CD16C9D50C00851D83 /* FadeToTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeToTestLayer.h; sourceTree = "<group>"; };
 		FB37F3CE16C9D50C00851D83 /* FadeToTestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeToTestLayer.m; sourceTree = "<group>"; };
+		FB3EFDF116D0F80800CB0658 /* ParticleSample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ParticleSample.plist; sourceTree = "<group>"; };
+		FB3EFDF216D0F80800CB0658 /* ParticleSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParticleSample.png; sourceTree = "<group>"; };
 		FB6F7B7516CF29FF00E74FDB /* Back.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Back.fnt; sourceTree = "<group>"; };
 		FB6F7B7616CF29FF00E74FDB /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
 		FB6F7B7A16CF2C2B00E74FDB /* ParticleSampleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSampleLayer.h; sourceTree = "<group>"; };
 		FB6F7B7B16CF2C2B00E74FDB /* ParticleSampleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleSampleLayer.m; sourceTree = "<group>"; };
-		FB6F7B7C16CF2C2B00E74FDB /* ParticleSample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ParticleSample.plist; sourceTree = "<group>"; };
-		FB6F7B7D16CF2C2B00E74FDB /* ParticleSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParticleSample.png; sourceTree = "<group>"; };
 		FB81E50C16CF4A7F006541C2 /* CallFuncParticle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallFuncParticle.plist; sourceTree = "<group>"; };
 		FB81E50D16CF4A7F006541C2 /* CallFuncParticle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CallFuncParticle.png; sourceTree = "<group>"; };
 		FBA0574516CE917F00BBD57E /* BaseTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTestLayer.h; sourceTree = "<group>"; };
@@ -589,10 +589,10 @@
 		FB00E9BC16C64D7100F23037 /* ActionMove */ = {
 			isa = PBXGroup;
 			children = (
-				FB00E9BE16C650A100F23037 /* MoveByTestLayer.h */,
-				FB00E9BF16C650A100F23037 /* MoveByTestLayer.m */,
 				FB2EBE2916C9110A000050B9 /* MoveMenuLayer.h */,
 				FB2EBE2A16C9110A000050B9 /* MoveMenuLayer.m */,
+				FB00E9BE16C650A100F23037 /* MoveByTestLayer.h */,
+				FB00E9BF16C650A100F23037 /* MoveByTestLayer.m */,
 				FB2EBE2616C910D5000050B9 /* MoveToTestLayer.h */,
 				FB2EBE2716C910D5000050B9 /* MoveToTestLayer.m */,
 			);
@@ -602,10 +602,10 @@
 		FB2EBE2C16C92FF8000050B9 /* ActionRotate */ = {
 			isa = PBXGroup;
 			children = (
-				FB2EBE2D16C92FF8000050B9 /* RotateByTestLayer.h */,
-				FB2EBE2E16C92FF8000050B9 /* RotateByTestLayer.m */,
 				FB2EBE2F16C92FF8000050B9 /* RotateMenuLayer.h */,
 				FB2EBE3016C92FF8000050B9 /* RotateMenuLayer.m */,
+				FB2EBE2D16C92FF8000050B9 /* RotateByTestLayer.h */,
+				FB2EBE2E16C92FF8000050B9 /* RotateByTestLayer.m */,
 				FB2EBE3116C92FF8000050B9 /* RotateToTestLayer.h */,
 				FB2EBE3216C92FF8000050B9 /* RotateToTestLayer.m */,
 			);
@@ -615,10 +615,10 @@
 		FB2EBE3616C93325000050B9 /* ActionScale */ = {
 			isa = PBXGroup;
 			children = (
-				FB2EBE3716C93325000050B9 /* ScaleByTestLayer.h */,
-				FB2EBE3816C93325000050B9 /* ScaleByTestLayer.m */,
 				FB2EBE3916C93325000050B9 /* ScaleMenuLayer.h */,
 				FB2EBE3A16C93325000050B9 /* ScaleMenuLayer.m */,
+				FB2EBE3716C93325000050B9 /* ScaleByTestLayer.h */,
+				FB2EBE3816C93325000050B9 /* ScaleByTestLayer.m */,
 				FB2EBE3B16C93325000050B9 /* ScaleToTestLayer.h */,
 				FB2EBE3C16C93325000050B9 /* ScaleToTestLayer.m */,
 			);
@@ -628,10 +628,10 @@
 		FB2EBE4016C938B7000050B9 /* ActionJump */ = {
 			isa = PBXGroup;
 			children = (
-				FB2EBE4116C938B7000050B9 /* JumpByTestLayer.h */,
-				FB2EBE4216C938B7000050B9 /* JumpByTestLayer.m */,
 				FB2EBE4316C938B7000050B9 /* JumpMenuLayer.h */,
 				FB2EBE4416C938B7000050B9 /* JumpMenuLayer.m */,
+				FB2EBE4116C938B7000050B9 /* JumpByTestLayer.h */,
+				FB2EBE4216C938B7000050B9 /* JumpByTestLayer.m */,
 				FB2EBE4516C938B7000050B9 /* JumpToTestLayer.h */,
 				FB2EBE4616C938B7000050B9 /* JumpToTestLayer.m */,
 			);
@@ -641,10 +641,10 @@
 		FB2EBE4A16C93E2A000050B9 /* ActionBezier */ = {
 			isa = PBXGroup;
 			children = (
-				FB2EBE4B16C93E2A000050B9 /* BezierByTestLayer.h */,
-				FB2EBE4C16C93E2A000050B9 /* BezierByTestLayer.m */,
 				FB2EBE4D16C93E2A000050B9 /* BezierMenuLayer.h */,
 				FB2EBE4E16C93E2A000050B9 /* BezierMenuLayer.m */,
+				FB2EBE4B16C93E2A000050B9 /* BezierByTestLayer.h */,
+				FB2EBE4C16C93E2A000050B9 /* BezierByTestLayer.m */,
 				FB2EBE4F16C93E2A000050B9 /* BezierToTestLayer.h */,
 				FB2EBE5016C93E2A000050B9 /* BezierToTestLayer.m */,
 			);
@@ -654,10 +654,10 @@
 		FB37F3C616C9D50C00851D83 /* ActionFade */ = {
 			isa = PBXGroup;
 			children = (
-				FB37F3C716C9D50C00851D83 /* FadeInTestLayer.h */,
-				FB37F3C816C9D50C00851D83 /* FadeInTestLayer.m */,
 				FB37F3C916C9D50C00851D83 /* FadeMenuLayer.h */,
 				FB37F3CA16C9D50C00851D83 /* FadeMenuLayer.m */,
+				FB37F3C716C9D50C00851D83 /* FadeInTestLayer.h */,
+				FB37F3C816C9D50C00851D83 /* FadeInTestLayer.m */,
 				FB37F3CB16C9D50C00851D83 /* FadeOutTestLayer.h */,
 				FB37F3CC16C9D50C00851D83 /* FadeOutTestLayer.m */,
 				FB37F3CD16C9D50C00851D83 /* FadeToTestLayer.h */,
@@ -669,6 +669,8 @@
 		FB6F7B7916CF2C2B00E74FDB /* ParticleSample */ = {
 			isa = PBXGroup;
 			children = (
+				FB3EFDF116D0F80800CB0658 /* ParticleSample.plist */,
+				FB3EFDF216D0F80800CB0658 /* ParticleSample.png */,
 				FB6F7B7A16CF2C2B00E74FDB /* ParticleSampleLayer.h */,
 				FB6F7B7B16CF2C2B00E74FDB /* ParticleSampleLayer.m */,
 			);
@@ -680,14 +682,14 @@
 			children = (
 				FBA0574916CE9A9900BBD57E /* CompositionMenuLayer.h */,
 				FBA0574A16CE9A9900BBD57E /* CompositionMenuLayer.m */,
-				FBA0575216CE9EB600BBD57E /* RepeatTestLayer.h */,
-				FBA0575316CE9EB600BBD57E /* RepeatTestLayer.m */,
-				FBA0575516CEA23600BBD57E /* RepeatForeverTestLayer.h */,
-				FBA0575616CEA23600BBD57E /* RepeatForeverTestLayer.m */,
 				FBA0574B16CE9A9900BBD57E /* SequenceTestLayer.h */,
 				FBA0574C16CE9A9900BBD57E /* SequenceTestLayer.m */,
 				FBA0574D16CE9A9900BBD57E /* SpawnTestLayer.h */,
 				FBA0574E16CE9A9900BBD57E /* SpawnTestLayer.m */,
+				FBA0575216CE9EB600BBD57E /* RepeatTestLayer.h */,
+				FBA0575316CE9EB600BBD57E /* RepeatTestLayer.m */,
+				FBA0575516CEA23600BBD57E /* RepeatForeverTestLayer.h */,
+				FBA0575616CEA23600BBD57E /* RepeatForeverTestLayer.m */,
 			);
 			path = CompositionAction;
 			sourceTree = "<group>";
@@ -695,10 +697,10 @@
 		FBA0575816CEAD7E00BBD57E /* CallFuncTestLayer */ = {
 			isa = PBXGroup;
 			children = (
-				FB81E50C16CF4A7F006541C2 /* CallFuncParticle.plist */,
-				FB81E50D16CF4A7F006541C2 /* CallFuncParticle.png */,
 				FBA0575916CEAD8000BBD57E /* CallFuncMenuLayer.h */,
 				FBA0575A16CEAD8000BBD57E /* CallFuncMenuLayer.m */,
+				FB81E50C16CF4A7F006541C2 /* CallFuncParticle.plist */,
+				FB81E50D16CF4A7F006541C2 /* CallFuncParticle.png */,
 				FBA0575B16CEAD8000BBD57E /* CallFuncTestLayer.h */,
 				FBA0575C16CEAD8000BBD57E /* CallFuncTestLayer.m */,
 			);
@@ -750,34 +752,32 @@
 		FBD58AD216BE32EF00B007A5 /* Sample20130216 */ = {
 			isa = PBXGroup;
 			children = (
-				FBA15E8F16CF547F00D07CE5 /* Animation */,
-				FBA0575816CEAD7E00BBD57E /* CallFuncTestLayer */,
-				FBA0574816CE9A9800BBD57E /* CompositionAction */,
-				FB37F3C616C9D50C00851D83 /* ActionFade */,
-				FB2EBE4A16C93E2A000050B9 /* ActionBezier */,
-				FB2EBE4016C938B7000050B9 /* ActionJump */,
-				FB2EBE3616C93325000050B9 /* ActionScale */,
 				FB00E9BC16C64D7100F23037 /* ActionMove */,
+				FB2EBE4016C938B7000050B9 /* ActionJump */,
+				FB2EBE4A16C93E2A000050B9 /* ActionBezier */,
 				FB2EBE2C16C92FF8000050B9 /* ActionRotate */,
+				FB2EBE3616C93325000050B9 /* ActionScale */,
+				FB37F3C616C9D50C00851D83 /* ActionFade */,
+				FBA0574816CE9A9800BBD57E /* CompositionAction */,
+				FBA0575816CEAD7E00BBD57E /* CallFuncTestLayer */,
+				FBA15E8F16CF547F00D07CE5 /* Animation */,
 				FB6F7B7916CF2C2B00E74FDB /* ParticleSample */,
-				FB6F7B7C16CF2C2B00E74FDB /* ParticleSample.plist */,
-				FB6F7B7D16CF2C2B00E74FDB /* ParticleSample.png */,
 				FBD58C6016BE32F200B007A5 /* AppDelegate.h */,
 				FBD58C6116BE32F200B007A5 /* AppDelegate.m */,
+				FBA0574516CE917F00BBD57E /* BaseTestLayer.h */,
+				FBA0574616CE917F00BBD57E /* BaseTestLayer.m */,
 				FB6F7B7516CF29FF00E74FDB /* Back.fnt */,
 				FB6F7B7616CF29FF00E74FDB /* Back.png */,
 				FBD58C6316BE32F200B007A5 /* HelloWorldLayer.h */,
 				FBD58C6416BE32F200B007A5 /* HelloWorldLayer.m */,
 				FBD58C6616BE32F200B007A5 /* IntroLayer.h */,
 				FBD58C6716BE32F200B007A5 /* IntroLayer.m */,
+				FB00E9B916C64C8C00F23037 /* TitleLayer.h */,
+				FB00E9BA16C64C8C00F23037 /* TitleLayer.m */,
 				FBD58AEB16BE32EF00B007A5 /* libs */,
 				FBD58AD316BE32EF00B007A5 /* Resources */,
 				FB00E9B216C6433A00F23037 /* SceneMove */,
 				FBD58C5C16BE32F200B007A5 /* Supporting Files */,
-				FB00E9B916C64C8C00F23037 /* TitleLayer.h */,
-				FB00E9BA16C64C8C00F23037 /* TitleLayer.m */,
-				FBA0574516CE917F00BBD57E /* BaseTestLayer.h */,
-				FBA0574616CE917F00BBD57E /* BaseTestLayer.m */,
 			);
 			path = Sample20130216;
 			sourceTree = "<group>";
@@ -1242,8 +1242,6 @@
 				FB00E9C216C6B85D00F23037 /* powered.png in Resources */,
 				FB6F7B7716CF29FF00E74FDB /* Back.fnt in Resources */,
 				FB6F7B7816CF29FF00E74FDB /* Back.png in Resources */,
-				FB6F7B7F16CF2C2B00E74FDB /* ParticleSample.plist in Resources */,
-				FB6F7B8016CF2C2B00E74FDB /* ParticleSample.png in Resources */,
 				FB81E50E16CF4A7F006541C2 /* CallFuncParticle.plist in Resources */,
 				FB81E50F16CF4A7F006541C2 /* CallFuncParticle.png in Resources */,
 				FBA15EA116CF54C200D07CE5 /* grossini_dance_01.png in Resources */,
@@ -1260,6 +1258,8 @@
 				FBA15EAC16CF54C200D07CE5 /* grossini_dance_12.png in Resources */,
 				FBA15EAD16CF54C200D07CE5 /* grossini_dance_13.png in Resources */,
 				FBA15EAE16CF54C200D07CE5 /* grossini_dance_14.png in Resources */,
+				FB3EFDF316D0F80800CB0658 /* ParticleSample.plist in Resources */,
+				FB3EFDF416D0F80800CB0658 /* ParticleSample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -51,7 +51,7 @@
             id action1 = [CCMoveTo actionWithDuration:2 position:ccp(100,100)];
             // 1秒かけて、X座標+80, Y座標+80のpostionへ移動
             id action2 = [CCMoveBy actionWithDuration:1 position:ccp(80,80)];
-            // 3秒かけて、X座標+0, Y座標+80のpositionへ移動
+            // 0.5秒かけて、X座標+0, Y座標+80のpositionへ移動
             id action3 = [CCMoveBy actionWithDuration:0.5 position:ccp(0,80)];
             // action1〜3を順番にアニメーション
             [sprite runAction:[CCSequence actions:action1, action2, action3, nil]];

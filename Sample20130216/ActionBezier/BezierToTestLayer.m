@@ -45,7 +45,7 @@
         [self addChild:sprite];
         
         
-        CCLabelTTF *label1 = [CCLabelTTF labelWithString:@"CCJumpTo" fontName:@"Marker Felt" fontSize:30];
+        CCLabelTTF *label1 = [CCLabelTTF labelWithString:@"CCBezierTo" fontName:@"Marker Felt" fontSize:30];
         CCMenuItemLabel *itemLabel1 = [CCMenuItemLabel itemWithLabel:label1 block:^(id sender) {
             // 今いるpositionから1.0秒かけて、x座標に110、y座標に320移動
             sprite.position = center;

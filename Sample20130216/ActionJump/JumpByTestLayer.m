@@ -45,7 +45,7 @@
         [self addChild:sprite];
         
         
-        CCLabelTTF *label1 = [CCLabelTTF labelWithString:@"CCMoveBy" fontName:@"Marker Felt" fontSize:30];
+        CCLabelTTF *label1 = [CCLabelTTF labelWithString:@"CCJumpBy" fontName:@"Marker Felt" fontSize:30];
         CCMenuItemLabel *itemLabel1 = [CCMenuItemLabel itemWithLabel:label1 block:^(id sender) {
             // 今いるpositionから1.0秒かけて、x座標に+20、y座標に-10移動
             [sprite runAction:[CCJumpBy actionWithDuration:1.0f position:ccp(100,0) height:200 jumps:3]];

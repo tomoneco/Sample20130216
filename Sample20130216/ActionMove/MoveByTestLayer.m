@@ -47,7 +47,7 @@
         
         CCLabelTTF *label1 = [CCLabelTTF labelWithString:@"CCMoveBy" fontName:@"Marker Felt" fontSize:30];
         CCMenuItemLabel *itemLabel1 = [CCMenuItemLabel itemWithLabel:label1 block:^(id sender) {
-            // 今いるpositionから1.0秒かけて、x座標に+20、y座標に-10移動
+            // 今いるpositionから1.0秒かけて、x座標に+50、y座標に-50移動
             [sprite runAction:[CCMoveBy actionWithDuration:1.0f position:ccp(50, -50)]];
         }];
 		

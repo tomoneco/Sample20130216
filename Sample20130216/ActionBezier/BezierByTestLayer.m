@@ -46,7 +46,7 @@
         [self addChild:sprite];
         
         
-        CCLabelTTF *label1 = [CCLabelTTF labelWithString:@"CCMoveBy" fontName:@"Marker Felt" fontSize:30];
+        CCLabelTTF *label1 = [CCLabelTTF labelWithString:@"CCBezierBy" fontName:@"Marker Felt" fontSize:30];
         CCMenuItemLabel *itemLabel1 = [CCMenuItemLabel itemWithLabel:label1 block:^(id sender) {
             // 今いるpositionから1.0秒かけて、x座標に+20、y座標に-10移動
             ccBezierConfig config;
